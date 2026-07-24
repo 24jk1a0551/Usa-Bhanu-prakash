@@ -1,0 +1,76 @@
+React Native : 
+---------------
+    ->React Native is the javascript Framework used to build Native Android/IOS Application
+
+
+
+    Command to create React Native App: 
+    -----------------------------------
+        1. npm create-react-native-app@latest 
+
+        2. npx create-expo-app@latest appName 
+
+
+Components : 
+------------
+    ->Components are smallest UI(user interface ) blocks in the screens
+
+    ->Types Components:
+         1. class based Components
+            ->Any Components that is declear by class
+            keyword
+            ->class based Components is also called
+            as a state full Components
+            ->CBC contains constructors , this ,
+            super keywords and render() 
+
+
+
+         2. function based Components
+            ->Any Components that is declear by
+            function keyword
+            ->function based Components is also
+            called as a stateless Components
+         
+         Syntax 1: 
+
+            function ComponentName(){
+                return(
+                    --here write UI logic--
+                )
+            }
+            export default ComponentName;
+
+            
+
+
+    
+
+    Step To run own jsx/tsx File : 
+    ------------------------------
+            1. delete app files and Component folder
+            2. modify "main:'index.js'"  in package.json
+            3. create index.js and import registerRootComponent from expo library
+            4. create App.jsx/ App.tsx in app folder 
+            
+
+
+dependency package's for screen navigation:
+--------------------------------------------
+        npx expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated
+
+
+
+
+Integrate API using Axios: 
+--------------------------
+    npm install axios
+
+
+
+    HTTP: 
+        1. get()
+        2. post() 
+        3. put() 
+        4. delete()
+        5. patch() 
